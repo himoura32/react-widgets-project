@@ -1,4 +1,5 @@
 import Accordian from './components/Accordian';
+import Search from './components/Search';
 import './components/App.css';
 
 const items = [
@@ -18,8 +19,9 @@ const items = [
 
 function App() {
   return (
-    <div className='container'>
-      <Accordian items={items} />
+    <div className='ui container'>
+      <Search />
+      {/* <Accordian items={items} /> */}
     </div>
   );
 }
